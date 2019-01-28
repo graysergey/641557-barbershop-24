@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп цены</title>
+  </head>
+  <body>
+    <header>
+      <nav class="site-navigation">
+        <a class="logo" href="#"><img src="img/logo.svg" width="111" height="24" alt=""></a>
+        <ul class="main-menu">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="price.html">Прайс-лист</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li><a class="login-link" href="#">Вход</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="barbershop-price-page">
+      <h1 class="visually-hidden">Наши цены, и короткая информация о нас</h1>
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Главная</a></li>
+        <li class="breadcrumbs-current">Прайс-лист</li>
+      </ul>
+
+      <p class="title-page">Истинно мужская классика</p>
+      <section class="product-names">
+        <h2 class="title">Мы используем только лучшие средства:</h2>
+        <ul>
+          <li class="product-name">Baxter of California</li>
+          <li class="product-name">Mr Natty</li>
+          <li class="product-name">Suavecito</li>
+          <li class="product-name">Malin+Goetz</li>
+        </ul>
+      </section>
+
+      <section class="table-price">
+        <h2 class="title">Цены на услуги наших мастеров:</h2>
+        <dl class="price-list">
+          <dt class="price-item">Стрижка</dt>
+            <dd>150</dd>
+          <dt class="price-item">Стрижка бороды</td>
+            <dd>500</dd>
+          <dt class="price-item">Накрутка усов</td>
+            <dd>350</dd>
+        </dl>
+      </section>
+
+      <section class="about-us">
+        <h2 class="title">Несколько слов о нас</h2>
+        <p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+        <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-contacts">
+        <p>Барбершоп «Бородинский»</p>
+        <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</p>
+        <a href="map.html">Как нас найти?</a>
+        <p class="telephon">Телефон: +7 (495) 666-02-66</p>
+      </div>
+
+      <div class="footer-social">
+        <p>Давайте дружить!</p>
+        <ul class="social-list">
+          <li class="social-item social-vk"><span class="visually-hidden">Вконтакте</span></li>
+          <li class="social-item social-fb"><span class="visually-hidden">Фейсбук</span></li>
+          <li class="social-item social-inst"><span class="visually-hidden">Инстаграмм</span></li>
+        </ul>
+      </div>
+
+      <p class="footer-copiright">
+        <span>Разработано</span>
+        <a class="btn" href="#">Html Academy</a>
+      </p>
+    </footer>
+
+    <section class="modal modal-login">
+      <h2 class="title">Личный кабинет</h2>
+      <form action="" method="POST">
+        <legend>Введите пожалуйста свой логин и пароль</legend>
+        <input type="text" value="Логин">
+        <input type="password" value="Пароль">
+        <input class="remember-me" type="checkbox" name="remember" id="remember">
+        <label for="remember">Запомните меня</label>
+        <a class="forgot-password" href="#">Я забыл пароль</a>
+        <button type="submit">Войти</button>
+        <button class="login-form-close" type="button"></button>
+      </form>
+    </section>
+
+    <section>
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <button class="map-close" type="button" aria-label="Как до нас добраться"></button>
+    </section>
+
+  </body>
+</html>
